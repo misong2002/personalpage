@@ -43,21 +43,21 @@ node scripts/serve.mjs
 
 保存后运行 `node scripts/build.mjs` 并刷新浏览器。`_site/` 是自动生成的，不要直接修改。
 
-## 连接 GitHub
+## 更新线上网站
 
-以 misong2002 创建公开仓库 `personalpage`，不要自动添加 README：
+仓库已连接到 [misong2002/personalpage](https://github.com/misong2002/personalpage)，GitHub Pages 使用 GitHub Actions 自动部署，域名为 `mingzhuosong.net`。
+
+修改网页文字或确认发布 PDF 后，在项目目录执行：
 
 ```powershell
-git init -b main
 git add .
-git commit -m "Create personal website with PDF notes"
-git remote add origin https://github.com/misong2002/personalpage.git
-git push -u origin main
+git commit -m "Update website"
+git push
 ```
 
-仓库 Settings → Pages → Source 选择 GitHub Actions，先检查 https://misong2002.github.io/personalpage/。
+推送后在仓库 Actions 页面查看构建和部署结果，成功后访问域名检查更新。仅在本地保存文件或构建不会更新公网网站。
 
-GitHub 账号 Settings → Pages → Add a domain，按提示添加 Cloudflare TXT 验证记录。仓库 Pages → Custom domain 设置 `mingzhuosong.net`。
+GitHub 账号已完成域名所有权验证，请保留 Cloudflare 中的 `_github-pages-challenge-misong2002` TXT 记录。仓库 Pages → Custom domain 已设置 `mingzhuosong.net`。
 
 Cloudflare DNS（DNS only）：
 
