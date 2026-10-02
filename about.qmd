@@ -1,11 +1,57 @@
 ---
-title: 关于
+title: 关于我
 ---
 
 ## 宋明卓 / Mingzhuo Song
 
 {{< include _includes/bio-zh.qmd >}}
 
-我会在这里逐步整理笔记、推导与参考文献，并持续修订已发布的内容。
+## 学术主页与联系
 
-[GitHub · misong2002](https://github.com/misong2002)
+[ORCID · 0009-0005-0707-0946](https://orcid.org/0009-0005-0707-0946) · [INSPIRE HEP](https://inspirehep.net/authors/2784705) · [GitHub · misong2002](https://github.com/misong2002)
+
+邮箱：[mingzhuo.song@ipmu.jp](mailto:mingzhuo.song@ipmu.jp)
+
+## 教育与访问经历
+
+- **2025 年 10 月起｜东京大学 Kavli IPMU**：研究生，导师为 Mark Vagins 教授。
+- **2024 年 8–11 月｜CERN**：WCTE 组访问学生实习。
+- **2021 年 9 月起｜清华大学致理书院**：本科阶段主修物理学，辅修机械工程。
+
+## 研究经历
+
+### Hyper-Kamiokande（HK）｜2025 年 10 月起
+
+在 Mark Vagins 教授指导下，研究长基线中微子实验对 CPT 破坏效应的探测。工作包括计算含 CPT 破坏效应的中微子振荡预期事例率、开发基于 MaCh3 的拟合工具，以及开发基于机器学习的可微中微子相互作用模型 MIKI。
+
+### Water Cherenkov Test Experiment（WCTE）｜2024 年 8–12 月
+
+在 Patrick de Perio 指导下，参与探测器组装与调试，包括净化系统和探测器的机械设计与搭建、净化及慢控制系统的开发与自动化，以及正电子和其他粒子的探测器响应研究。
+
+### RELICS｜2023 年 5 月–2025 年 7 月
+
+在清华大学高飞老师指导下，参与反应堆中微子液氙相干弹性散射实验。工作覆盖双相氙 TPC 模拟、SiPM 波形与低温低噪声读出电路开发、原型探测器 PMT 自动标定及 Ar/Kr 源标定、相干弹性中微子–原子核散射（CEνNS）事例率模拟，以及 Migdal 效应事例率、背景和事件选择研究。
+
+## 论文
+
+参与合作论文：[“Reactor neutrino liquid xenon coherent elastic scattering experiment”](https://doi.org/10.1103/PhysRevD.110.072011)，*Physical Review D* **110**, 072011。更多研究成果可见 [INSPIRE HEP](https://inspirehep.net/authors/2784705)。
+
+## 技能与学术活动
+
+编程：Python、MATLAB；实验与电子学：微控制器、电子电路、Altium Designer、Multisim；机械设计：AutoCAD、SolidWorks。
+
+曾参加 Neutrino Physics and Machine Learning 2025（2025 年 11 月）、RELICS 合作组会议（2024 年 1 月）及江门中微子暑期学校（2023 年 6 月）。
+
+## 物理之外
+
+### 动画与奇幻故事
+
+我喜欢动画，是《魔法少女小圆》的狂热粉丝。我也对 DND 式的奇幻故事很感兴趣：探索未知、描绘世界，以及在冒险中追寻真相的意象，对我很有吸引力。我曾借用这样的隐喻写过一篇科普文章 **《Paladin of Truth》**，把学习物理描绘成探索一片奇幻大陆的旅程。你可以在[东京大学 FoPM 2026 年度学生文章页面](https://www.s.u-tokyo.ac.jp/ja/FoPM/activity/essay2026.html)找到它，也可以[直接阅读文章 PDF](https://www.s.u-tokyo.ac.jp/ja/FoPM/activity/pdf/2026/4_SONG.pdf)。
+
+### 音乐
+
+我喜欢音乐，尤其是交响乐和器乐摇滚。
+
+### 阅读与哲学
+
+我也喜欢读书，尤其关注科学哲学和认识论问题。它们虽然不会直接产生科学知识，但对科学活动本身的反思——我们如何提出问题、形成解释和理解知识——让我有很多收获。

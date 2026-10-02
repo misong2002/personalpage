@@ -8,9 +8,9 @@
   const knownPage = ['index.html', 'notes.html', 'about.html'].includes(page) ? page : 'index.html';
   const paths = { zh: '', en: 'en/', ja: 'ja/' };
   const labels = {
-    zh: ['首页', '讲义', '关于', '切换语言'],
-    en: ['Home', 'Notes', 'About', 'Choose language'],
-    ja: ['ホーム', '講義ノート', '紹介', '言語を選択']
+    zh: ['首页', '讲义', '关于我', '切换语言'],
+    en: ['Home', 'Notes', 'About me', 'Choose language'],
+    ja: ['ホーム', '講義ノート', '自己紹介', '言語を選択']
   };
   document.documentElement.lang = { zh: 'zh-CN', en: 'en', ja: 'ja' }[lang];
   const constructionNote = document.querySelector('.nav-footer-center p');

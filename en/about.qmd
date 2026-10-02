@@ -1,11 +1,57 @@
 ---
-title: About
+title: About me
 ---
 
 ## 宋明卓 / Mingzhuo Song
 
 {{< include ../_includes/bio-en.qmd >}}
 
-I will gradually add notes, derivations, and references, and revise published material as it develops.
+## Academic profiles & contact
 
-[GitHub · misong2002](https://github.com/misong2002)
+[ORCID · 0009-0005-0707-0946](https://orcid.org/0009-0005-0707-0946) · [INSPIRE HEP](https://inspirehep.net/authors/2784705) · [GitHub · misong2002](https://github.com/misong2002)
+
+Email: [mingzhuo.song@ipmu.jp](mailto:mingzhuo.song@ipmu.jp)
+
+## Education & visits
+
+- **Since October 2025 | Kavli IPMU, University of Tokyo**: graduate student, advised by Professor Mark Vagins.
+- **August–November 2024 | CERN**: visiting student intern with the WCTE group.
+- **From September 2021 | Zhili College, Tsinghua University**: undergraduate studies in physics, with a minor in mechanical engineering.
+
+## Research experience
+
+### Hyper-Kamiokande (HK) | Since October 2025
+
+With Professor Mark Vagins, I have worked on probing CPT violation in long-baseline neutrino experiments. My work includes calculating expected event rates with CPT-violating neutrino oscillations, developing a MaCh3-based fitter, and developing MIKI, a differentiable machine-learning-based neutrino interaction model.
+
+### Water Cherenkov Test Experiment (WCTE) | August–December 2024
+
+With Patrick de Perio, I contributed to detector assembly and commissioning: mechanical design and construction of the purification system and detector, development and automation of purification and slow-control systems, and studies of the detector response to positrons and other particles.
+
+### RELICS | May 2023–July 2025
+
+With Fei Gao at Tsinghua University, I worked on the Reactor neutrino LIquid xenon Coherent elastic Scattering experiment. My experience spans dual-phase xenon TPC simulations, SiPM waveform and low-noise cryogenic readout development, automated PMT calibration and Ar/Kr source calibration, coherent elastic neutrino–nucleus scattering (CEνNS) event-rate simulations, and studies of Migdal event rates, backgrounds, and event selection.
+
+## Publications
+
+Collaborative publication: [“Reactor neutrino liquid xenon coherent elastic scattering experiment”](https://doi.org/10.1103/PhysRevD.110.072011), *Physical Review D* **110**, 072011. Further research outputs can be found on [INSPIRE HEP](https://inspirehep.net/authors/2784705).
+
+## Skills & academic activities
+
+Programming: Python and MATLAB. Laboratory and electronics: microcontrollers, electronic circuits, Altium Designer, and Multisim. Mechanical design: AutoCAD and SolidWorks.
+
+I have attended Neutrino Physics and Machine Learning 2025 (November 2025), a RELICS collaboration meeting (January 2024), and the Jiangmen Neutrino Summer School (June 2023).
+
+## Beyond physics
+
+### Anime & fantasy stories
+
+I enjoy anime and am an avid fan of *Puella Magi Madoka Magica*. I am also drawn to DND-style fantasy stories: exploring the unknown, mapping worlds, and searching for truth through adventure. I used this metaphor in my science communication essay **“Paladin of Truth,”** portraying the study of physics as a journey across a fantasy continent. You can find it on the [University of Tokyo FoPM 2026 student essay page](https://www.s.u-tokyo.ac.jp/ja/FoPM/activity/essay2026.html), or [read the essay PDF directly](https://www.s.u-tokyo.ac.jp/ja/FoPM/activity/pdf/2026/4_SONG.pdf).
+
+### Music
+
+I enjoy music, especially symphonic music and instrumental rock.
+
+### Reading & philosophy
+
+I also enjoy reading, with a particular interest in philosophy of science and epistemology. Although these inquiries do not directly produce scientific knowledge, reflecting on scientific activity itself—how we ask questions, develop explanations, and understand knowledge—has taught me a great deal.
