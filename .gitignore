@@ -1,0 +1,13 @@
+/.tools/
+/.quarto/
+/_site/
+/artifacts/
+/books/*/.quarto/
+/books/*/_book/
+/ingest-private/
+/manuscript-private/
+.env
+.env.*
+!.env.example
+
+**/*.quarto_ipynb

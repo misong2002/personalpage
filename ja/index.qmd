@@ -1,0 +1,20 @@
+---
+title: '宋明卓 / Mingzhuo Song'
+pagetitle: '宋明卓 / Mingzhuo Song · ホーム'
+---
+
+```{=html}
+<style>#title-block-header { display: none; }</style>
+<section class="hero">
+  <p class="eyebrow">Notes &amp; ideas</p>
+  <h1>宋明卓<span class="name-en">Mingzhuo Song</span></h1>
+  <p class="intro">講義ノート、導出、学習の記録を少しずつまとめていく場所です。</p>
+  <a class="hero-link" href="notes.html">講義ノートを見る →</a>
+</section>
+```
+
+## 日本語版について
+
+日本語のコンテンツは準備中です。現在は中国語・英語のページをご利用ください。
+
+[中国語版](../index.html) · [English](../en/index.html)

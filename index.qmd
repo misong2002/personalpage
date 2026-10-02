@@ -1,0 +1,49 @@
+---
+title: '宋明卓 / Mingzhuo Song'
+title-block-banner: false
+pagetitle: '宋明卓 / Mingzhuo Song · 首页'
+---
+
+```{=html}
+<style>#title-block-header { display: none; }</style>
+<section class="hero">
+  <p class="eyebrow">Physics · Perspectives · Notes</p>
+  <h1>宋明卓<span class="name-en">Mingzhuo Song</span></h1>
+  <p class="world-question">How is the given world possible?</p>
+  <p class="intro">我们所经验到的世界何以可能？我希望通过实验、理论与计算的不同视角，逐步理解这个问题。</p>
+  <a class="hero-link" href="notes.html">阅读讲义 →</a>
+</section>
+```
+
+::: {.research-intro}
+## 研究与思考
+
+{{< include _includes/bio-zh.qmd >}}
+:::
+
+## 讲义与笔记
+
+::: {.note-grid}
+::: {.note-card}
+[01 / QUANTUM FIELD THEORY]{.tag}
+
+### 量子场论
+
+从基本概念到推导，按章节组织的学习笔记。
+
+[浏览 PDF 讲义 →](notes.qmd)
+:::
+::: {.note-card}
+[02 / STRING THEORY]{.tag}
+
+### 弦论
+
+为后续讲义预留的空间。
+
+内容准备中。
+:::
+:::
+
+::: {.site-note}
+讲义在本地编写、校对和编译，网站提供确认发布的 PDF 文件。
+:::

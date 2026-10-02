@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="zh-CN">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>手稿转录与校对 · 宋明卓 / Mingzhuo Song</title><link rel="stylesheet" href="/styles.css"><script src="/app.js" defer></script></head>
+<body>
+<header><span>宋明卓 / Mingzhuo Song</span><a href="http://127.0.0.1:4173/">返回网站预览 →</a></header>
+<main>
+<p class="eyebrow">LOCAL MANUSCRIPT WORKSPACE</p><h1>手稿转录与校对</h1>
+<p class="lead">导入图片，生成 Markdown / QMD，再对照原图检查。确认前，内容保留在本地草稿中。</p>
+<p id="connection" role="status">正在检查配置…</p><p id="message" role="alert"></p>
+<section class="import-panel">
+<label for="title">讲义标题</label><input id="title" value="手稿草稿" maxlength="120">
+<label for="images">选择手稿图片（按文件名排序；每批 1–6 张，每张最多 8 MB，总计最多 24 MB）</label>
+<input id="images" type="file" accept="image/png,image/jpeg,image/webp,image/gif" multiple>
+<p id="selected">尚未选择图片</p>
+<button id="import">导入并归档原图</button>
+<p class="small">导入只在本机保存。点击“开始识别与校对”才会将图片发送给 DeepSeek 并产生 API 费用。每页调用两次：转录与原图复查。</p>
+</section>
+<div class="workspace">
+<aside><h2>任务记录</h2><div id="jobs"></div></aside>
+<section id="review" hidden>
+<div class="task-header"><div><h2 id="job-title"></h2><p id="progress" role="status"></p></div><button id="process">开始识别与校对</button></div>
+<p id="job-error" role="alert"></p>
+<div class="columns">
+<section><h3>原始手稿</h3><select id="page" aria-label="选择原图页码"></select><img id="original" alt="原始手稿"><p id="source-name" class="small"></p></section>
+<section><h3>Markdown 草稿</h3><textarea id="markdown" spellcheck="false" aria-label="编辑 Markdown 草稿" placeholder="识别完成后在这里校对和修改。"></textarea><button id="save">保存并本地检查</button><button id="verify" class="secondary">对照原图重新校对（API）</button><p class="small">修改后需重新进行原图校对，才能确认导出。</p></section>
+</div>
+<section class="report"><h3>校对报告</h3><p id="review-current"></p><div id="findings"></div><h4>机械检查</h4><div id="lint"></div><details><summary>Quarto 编译结果</summary><pre id="compile"></pre></details></section>
+<details id="preview-wrap"><summary>查看公式渲染预览</summary><iframe id="preview" title="草稿公式预览" sandbox="allow-scripts"></iframe></details>
+<section class="export"><h3>确认与下载</h3><label><input id="confirmed" type="checkbox"> 我已对照原图检查文字、公式与校对提示。</label><button id="approve">确认并生成已批准文件</button><p>确认后生成 approved.md / approved.qmd，仍不会自动发布到网站。</p><div id="downloads"></div></section>
+</section>
+<section id="empty"><h2>从一页手稿开始</h2><p>选择照片后导入，再开始识别。机器会保留看不清的标记，校对建议单独列出，不会自动改写你的推导。</p></section>
+</div>
+</main></body></html>

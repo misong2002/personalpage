@@ -1,0 +1,48 @@
+---
+title: '宋明卓 / Mingzhuo Song'
+pagetitle: '宋明卓 / Mingzhuo Song · Home'
+---
+
+```{=html}
+<style>#title-block-header { display: none; }</style>
+<section class="hero">
+  <p class="eyebrow">Physics · Perspectives · Notes</p>
+  <h1>宋明卓<span class="name-en">Mingzhuo Song</span></h1>
+  <p class="world-question">How is the given world possible?</p>
+  <p class="intro">Exploring this question through different perspectives, in conversation with experiment, theory, and computation.</p>
+  <a class="hero-link" href="notes.html">Explore the notes →</a>
+</section>
+```
+
+::: {.research-intro}
+## Research & perspectives
+
+{{< include ../_includes/bio-en.qmd >}}
+:::
+
+## Lecture notes
+
+::: {.note-grid}
+::: {.note-card}
+[01 / QUANTUM FIELD THEORY]{.tag}
+
+### Quantum Field Theory
+
+Chapter-based notes, from basic concepts to derivations.
+
+[Browse PDF notes →](notes.qmd)
+:::
+::: {.note-card}
+[02 / STRING THEORY]{.tag}
+
+### String Theory
+
+A space for future lecture notes.
+
+Coming soon.
+:::
+:::
+
+::: {.site-note}
+Lecture notes are written, reviewed, and compiled locally. This website provides the published PDFs.
+:::

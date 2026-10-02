@@ -1,0 +1,35 @@
+project:
+  type: book
+  output-dir: _book
+book:
+  title: 量子场论 · 示例讲义
+  author: '宋明卓 / Mingzhuo Song'
+  site-url: https://mingzhuosong.net/qft/
+  chapters:
+    - index.qmd
+    - scalar-field.qmd
+    - equation-of-motion.qmd
+  navbar:
+    title: '宋明卓 / Mingzhuo Song'
+    left:
+      - text: 首页
+        href: ../../index.qmd
+      - text: 讲义
+        href: ../../notes.qmd
+      - text: 关于
+        href: ../../about.qmd
+    right:
+      - text: 中文
+        href: ../../notes.qmd
+      - text: English
+        href: ../../en/notes.qmd
+      - text: 日本語
+        href: ../../ja/notes.qmd
+  page-footer: '宋明卓 / Mingzhuo Song'
+lang: zh
+format:
+  html:
+    theme: cosmo
+    css: ../../assets/styles.css
+    toc: true
+    include-after-body: ../../assets/site-footer.html

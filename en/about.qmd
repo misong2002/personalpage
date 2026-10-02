@@ -1,0 +1,11 @@
+---
+title: About
+---
+
+## 宋明卓 / Mingzhuo Song
+
+{{< include ../_includes/bio-en.qmd >}}
+
+I will gradually add notes, derivations, and references, and revise published material as it develops.
+
+[GitHub · misong2002](https://github.com/misong2002)

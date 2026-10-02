@@ -1,0 +1,15 @@
+# 运动方程 {#sec-equation-of-motion}
+
+对 @sec-scalar-field 中的 @eq-scalar-action 进行变分，要求边界上的变分为零，可得欧拉–拉格朗日方程：
+
+$$
+\partial_\mu\left(\frac{\partial\mathcal{L}}{\partial(\partial_\mu\phi)}\right)-\frac{\partial\mathcal{L}}{\partial\phi}=0.
+$$ {#eq-euler-lagrange}
+
+代入上一章的 @eq-scalar-lagrangian，得到
+
+$$
+(\Box+m^2)\phi=0,\qquad \Box=\partial_\mu\partial^\mu.
+$$ {#eq-klein-gordon}
+
+这就是自由实标量场的 Klein–Gordon 方程。

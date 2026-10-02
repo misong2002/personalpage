@@ -1,0 +1,5 @@
+I am interested in the question **“How is the given world possible?”** I believe that understanding it requires a shared effort across different perspectives, and an ongoing dialogue between experiment, theory, and computation.
+
+I have worked on neutrino experiments, with experience spanning instrumentation, data analysis, and simulation. I hope to use neutrinos as probes of beyond-the-Standard-Model (BSM) physics at higher energy scales. I am currently developing a physics-informed neural network for neutrino–nucleus ($\nu A$) scattering, aiming to improve the precision and computational efficiency of long-baseline (LBL) neutrino experiments.
+
+My research interests are gradually shifting toward theoretical physics, and I am now studying AdS/CFT duality. I am still new to this field and welcome suggestions and criticism, as well as conversations with people working from different perspectives.

@@ -1,0 +1,7 @@
+---
+title: PDF lecture notes
+---
+
+Lecture notes and study materials by 宋明卓 / Mingzhuo Song, available as PDFs.
+
+{{< include ../_includes/pdf-list-en.qmd >}}

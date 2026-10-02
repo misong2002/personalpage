@@ -1,0 +1,12 @@
+# 阅读说明 {.unnumbered}
+
+**宋明卓 / Mingzhuo Song**
+
+这是网站功能示例，展示章节目录、数学公式以及跨章节引用。以下内容不代表正式发布的讲义。
+
+先阅读 @sec-scalar-field，再前往 @sec-equation-of-motion。
+
+::: {.callout-note}
+## 语言
+示例讲义目前使用中文。English 和日本語按钮会返回相应语言的讲义目录。
+:::

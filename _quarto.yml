@@ -1,0 +1,43 @@
+project:
+  type: website
+  output-dir: _site
+  render:
+    - index.qmd
+    - notes.qmd
+    - about.qmd
+    - 'en/*.qmd'
+    - 'ja/*.qmd'
+  resources:
+    - assets/
+    - pdfs/
+website:
+  title: '宋明卓 / Mingzhuo Song'
+  site-url: https://mingzhuosong.net
+  description: '宋明卓 / Mingzhuo Song — 个人讲义与学习笔记'
+  navbar:
+    background: light
+    left:
+      - text: 首页
+        href: index.qmd
+      - text: 讲义
+        href: notes.qmd
+      - text: 关于
+        href: about.qmd
+    right:
+      - text: 中文
+        href: index.qmd
+      - text: English
+        href: en/index.qmd
+      - text: 日本語
+        href: ja/index.qmd
+  page-footer:
+    left: '宋明卓 / Mingzhuo Song'
+    right: 'mingzhuosong.net'
+  search: true
+lang: zh
+format:
+  html:
+    theme: cosmo
+    css: assets/styles.css
+    toc: false
+    include-after-body: assets/site-footer.html

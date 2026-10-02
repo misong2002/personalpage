@@ -1,0 +1,7 @@
+---
+title: PDF 讲义
+---
+
+宋明卓 / Mingzhuo Song 的讲义与学习笔记，以 PDF 形式提供阅读和下载。
+
+{{< include _includes/pdf-list-zh.qmd >}}

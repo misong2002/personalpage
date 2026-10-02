@@ -1,0 +1,3 @@
+```{=html}
+<p class="site-note">No PDFs have been published yet. Reviewed lecture notes will appear here.</p>
+```

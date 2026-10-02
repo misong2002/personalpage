@@ -1,0 +1,9 @@
+---
+title: 講義ノート
+---
+
+宋明卓 / Mingzhuo Song の講義ノート。
+
+日本語の講義は準備中です。
+
+{{< include ../_includes/pdf-list-ja.qmd >}}

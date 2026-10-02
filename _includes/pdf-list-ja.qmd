@@ -1,0 +1,3 @@
+```{=html}
+<p class="site-note">PDF 講義はまだ公開されていません。</p>
+```

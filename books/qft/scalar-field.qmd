@@ -1,0 +1,17 @@
+# 实标量场 {#sec-scalar-field}
+
+为演示公式与引用，取自然单位 $\hbar=c=1$，并采用度规 $\eta_{\mu\nu}=\operatorname{diag}(1,-1,-1,-1)$。
+
+自由实标量场的拉格朗日密度为
+
+$$
+\mathcal{L}=\frac{1}{2}\partial_\mu\phi\,\partial^\mu\phi-\frac{1}{2}m^2\phi^2.
+$$ {#eq-scalar-lagrangian}
+
+对应的作用量为
+
+$$
+S[\phi]=\int d^4x\,\mathcal{L}.
+$$ {#eq-scalar-action}
+
+下一章从 @eq-scalar-lagrangian 推导运动方程。
