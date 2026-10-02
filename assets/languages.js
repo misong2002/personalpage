@@ -13,6 +13,17 @@
     ja: ['ホーム', '講義ノート', '紹介', '言語を選択']
   };
   document.documentElement.lang = { zh: 'zh-CN', en: 'en', ja: 'ja' }[lang];
+  const constructionNote = document.querySelector('.nav-footer-center p');
+  if (constructionNote) {
+    const notices = {
+      zh: ['网站建设中', '本网站由宋明卓在 ChatGPT 的帮助下搭建。'],
+      en: ['Website under construction', 'Built by Mingzhuo Song with help from ChatGPT.'],
+      ja: ['サイト構築中', 'このサイトは宋明卓 / Mingzhuo Song が ChatGPT のサポートを受けて制作しています。']
+    };
+    const heading = document.createElement('strong');
+    heading.textContent = notices[lang][0];
+    constructionNote.replaceChildren(heading, document.createTextNode(` · ${notices[lang][1]}`));
+  }
   const brand = document.querySelector('.navbar-brand');
   if (brand) brand.href = new URL(paths[lang] + 'index.html', base).href;
   const nav = document.querySelector('.navbar-nav');

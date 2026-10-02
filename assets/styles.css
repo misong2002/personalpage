@@ -40,6 +40,8 @@ body.fullcontent main.content { width: 100%; max-width: none; margin: 0; }
 .note-card .tag { font-size: .73rem; color: #4b6d83; letter-spacing: .06em; }
 .site-note { color: var(--muted); font-size: .88rem; padding: 1rem 0; }
 footer.footer { border-top: 4px solid var(--sky); background: #f0f6fa; margin-top: 3rem; }
+footer.footer .nav-footer-center { color: var(--ink); font-size: .85rem; }
+footer.footer .nav-footer-center strong { border-bottom: 2px solid var(--gold); }
 #quarto-sidebar { background: #f3f8fb; }
 .navbar-brand:focus-visible, a:focus-visible { outline: 3px solid var(--gold); outline-offset: 4px; }
 @media (max-width: 650px) {
