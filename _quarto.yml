@@ -32,7 +32,7 @@ website:
         href: ja/index.qmd
   page-footer:
     left: '宋明卓 / Mingzhuo Song'
-    center: '**网站建设中** · 本网站由宋明卓在 ChatGPT 的帮助下搭建。'
+    center: '**网站建设中 · AI 使用声明**：本网站的程序由 ChatGPT 编写。'
     right: 'mingzhuosong.net'
   search: true
 lang: zh

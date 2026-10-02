@@ -16,13 +16,13 @@
   const constructionNote = document.querySelector('.nav-footer-center p');
   if (constructionNote) {
     const notices = {
-      zh: ['网站建设中', '本网站由宋明卓在 ChatGPT 的帮助下搭建。'],
-      en: ['Website under construction', 'Built by Mingzhuo Song with help from ChatGPT.'],
-      ja: ['サイト構築中', 'このサイトは宋明卓 / Mingzhuo Song が ChatGPT のサポートを受けて制作しています。']
+      zh: ['网站建设中 · AI 使用声明', '本网站的程序由 ChatGPT 编写。'],
+      en: ['Under construction · AI use statement', 'The code for this website was written by ChatGPT.'],
+      ja: ['サイト構築中 · AI 利用声明', 'このサイトのプログラムは ChatGPT が作成しました。']
     };
     const heading = document.createElement('strong');
     heading.textContent = notices[lang][0];
-    constructionNote.replaceChildren(heading, document.createTextNode(` · ${notices[lang][1]}`));
+    constructionNote.replaceChildren(heading, document.createTextNode(`: ${notices[lang][1]}`));
   }
   const brand = document.querySelector('.navbar-brand');
   if (brand) brand.href = new URL(paths[lang] + 'index.html', base).href;
