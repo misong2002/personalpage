@@ -1,6 +1,6 @@
 (() => {
   // Locate this script instead of assuming deployment at the domain root.
-  const script = document.querySelector('script[src$="/assets/languages.js"]');
+  const script = document.querySelector('script[src*="/assets/languages.js"]');
   const base = new URL('../', script.src);
   const path = decodeURI(location.pathname).slice(base.pathname.length);
   const lang = path.startsWith('en/') ? 'en' : path.startsWith('ja/') ? 'ja' : 'zh';
